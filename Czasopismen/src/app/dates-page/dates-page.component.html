@@ -1,0 +1,32 @@
+<!-- flexbox with content inside -->
+<div class="mainDisplay">
+    Test
+    <div class="buttonCase" *ngFor="let item of years | keyvalue">
+            <a href="/dates/{{brand}}/{{item.key}}">
+                <button (click)="selectedDate(item.key, null)" >{{item.key}} ({{item.value}})</button>
+            </a>
+    </div>
+    <a href="/dates/{{brand}}/wszystkie">
+        <button (click)="selectedDate('wszystkie', null)" >wszystkie</button>
+    </a>
+    <table class="datesView" *ngFor="let item of chosenYear; let j=index">
+        <tr class="entryView"  *ngFor="let entry of item | keyvalue; let i=index">
+            <span *ngIf="ToString(entry.key) == '$'; then thenBlock else elseBlock">
+
+            </span>
+            <ng-template #thenBlock>
+                <td>{{j + 1}}</td>
+                <td *ngIf="getFromObject(entry.value,'brak') != null">{{getFromObject(entry.value,'brak')}}</td>
+            </ng-template>
+            <ng-template #elseBlock>
+                <td *ngIf="ToString(entry.key) == 'miniaturka'" [innerHtml] = getImage(entry.value)></td>
+                <td *ngIf="ToString(entry.key) != 'miniaturka'">{{entry.key}}: <br><b>{{entry.value}}</b></td>
+            </ng-template>
+
+        </tr>
+    </table>
+
+    <a href="/brands"><button (click)="goBack()">BACK</button></a>
+
+    <span onload="selectedDate(null, null)"></span>
+</div>

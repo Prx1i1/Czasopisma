@@ -1,0 +1,7 @@
+.frameImages{
+    display: flexbox;
+    flex-direction: row;
+}
+.frameImages{
+    width: 400px;
+}

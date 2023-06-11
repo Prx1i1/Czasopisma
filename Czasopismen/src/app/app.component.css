@@ -1,0 +1,14 @@
+#bodymain{
+    display: none;
+}
+.htmlhack #bodymain{
+    display: block;
+}
+
+.frameImages{
+    display: flex;
+    flex-direction: row;
+}
+.frameImages{
+    width: 400px;
+}
