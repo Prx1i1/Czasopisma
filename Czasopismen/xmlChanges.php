@@ -8,7 +8,7 @@
 
 	header("Content-type: text/xml");
 	$doc= new DOMDocument();
-	$doc->load("./src/assets/czasopisma-copy.xml");
+	$doc->load("./src/assets/czasopisma.xml");
 
     switch($type){
         case "add":
@@ -28,11 +28,14 @@
         case "update":
             // zamiana
             $new = $doc->createElement($field,$value);
-            $old=$childs->item(2);
-            $old->parentNode->replaceChild($new,$old);
+            $childs = $doc->getElementsByTagName($field);
+            $old = $childs->item(0);
+            $old->parentNode->replaceChild($new, $old);
             break;
     }
 	
-	echo $doc->saveXML();
-	//$doc->save("new.xml");
+	
+	$doc->save("./src/assets/czasopisma.xml");
+    echo $doc->saveXML();
+
 	?>

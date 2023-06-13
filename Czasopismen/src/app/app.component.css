@@ -12,3 +12,7 @@
 .frameImages{
     width: 400px;
 }
+
+.cell{
+    border: 1px solid gray;
+}

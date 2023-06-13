@@ -22,7 +22,6 @@ export class ImagesFrameComponent implements OnInit {
           parser.parseString(xml, (err, result) => {
             console.log(result);
             console.log(typeof result)
-            console.log(result.czasopisma.zmienne.Atari_Age.src)
 
             response = result.czasopisma.zmienne
 

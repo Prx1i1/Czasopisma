@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <czasopisma>
   <zmienne>
     <Atari_Age>
@@ -45,7 +45,7 @@
       <src>IKS.jpg</src>
       <klik>IKS</klik>
     </IKS>
-  </zmienne>
+  <b>c</b></zmienne>
   <lata>
     <IKS>1986,1987,1988,1989,nr specjalne</IKS>
     <Avax>1990,1991</Avax>
@@ -1666,12 +1666,12 @@
     </Bajtek_Commodore>
   </Bajtek>
   <Komputer>
-    <Komputer_86_01_B rok="1986" brak="1986/1 - nikt nie skanuje"></Komputer_86_01_B>
-    <Komputer_86_02_B rok="1986" brak="1986/2 - nikt nie skanuje" />
-    <Komputer_86_03_B rok="1986" brak="1986/3 - nikt nie skanuje" />
-    <Komputer_86_04_B rok="1986" brak="1986/4 - nikt nie skanuje" />
-    <Komputer_86_05_B rok="1986" brak="1986/5 - nikt nie skanuje" />
-    <Komputer_86_06_B rok="1986" brak="1986/6 - skanuje Scalak" />
+    <Komputer_86_01_B rok="1986" brak="1986/1 - nikt nie skanuje"/>
+    <Komputer_86_02_B rok="1986" brak="1986/2 - nikt nie skanuje"/>
+    <Komputer_86_03_B rok="1986" brak="1986/3 - nikt nie skanuje"/>
+    <Komputer_86_04_B rok="1986" brak="1986/4 - nikt nie skanuje"/>
+    <Komputer_86_05_B rok="1986" brak="1986/5 - nikt nie skanuje"/>
+    <Komputer_86_06_B rok="1986" brak="1986/6 - skanuje Scalak"/>
     <Komputer_86_07 rok="1986">
       <nazwa>Komputer</nazwa>
       <numer>1986/7</numer>
@@ -1684,8 +1684,8 @@
       <przetworzenie>Scalak</przetworzenie>
       <podeslal>Bas</podeslal>
     </Komputer_86_07>
-    <Komputer_86_08_B rok="1986" brak="1986/8 - nikt nie skanuje" />
-    <Komputer_86_09_B rok="1986" brak="1986/9 - nikt nie skanuje" />
+    <Komputer_86_08_B rok="1986" brak="1986/8 - nikt nie skanuje"/>
+    <Komputer_86_09_B rok="1986" brak="1986/9 - nikt nie skanuje"/>
     <Komputer_87_01 rok="1987">
       <nazwa>Komputer</nazwa>
       <numer>1987/1 - strony 21 do 28 uszkodzone</numer>
@@ -1698,17 +1698,17 @@
       <przetworzenie>Scalak</przetworzenie>
       <podeslal>Bas</podeslal>
     </Komputer_87_01>
-    <Komputer_87_02_B rok="1987" brak="1987/2 - nikt nie skanuje" />
-    <Komputer_87_03_B rok="1987" brak="1987/3 - nikt nie skanuje" />
-    <Komputer_87_04_B rok="1987" brak="1987/4 - nikt nie skanuje" />
-    <Komputer_87_05_B rok="1987" brak="1987/5 - nikt nie skanuje" />
-    <Komputer_87_06_B rok="1987" brak="1987/6 - nikt nie skanuje" />
-    <Komputer_87_07_B rok="1987" brak="1987/7 - nikt nie skanuje" />
-    <Komputer_87_08_B rok="1987" brak="1987/8 - nikt nie skanuje" />
-    <Komputer_87_09_B rok="1987" brak="1987/9 - nikt nie skanuje" />
-    <Komputer_87_10_B rok="1987" brak="1987/10 - nikt nie skanuje" />
-    <Komputer_87_11_B rok="1987" brak="1987/11 - nikt nie skanuje" />
-    <Komputer_87_12_B rok="1987" brak="1987/12 - nikt nie skanuje" />
+    <Komputer_87_02_B rok="1987" brak="1987/2 - nikt nie skanuje"/>
+    <Komputer_87_03_B rok="1987" brak="1987/3 - nikt nie skanuje"/>
+    <Komputer_87_04_B rok="1987" brak="1987/4 - nikt nie skanuje"/>
+    <Komputer_87_05_B rok="1987" brak="1987/5 - nikt nie skanuje"/>
+    <Komputer_87_06_B rok="1987" brak="1987/6 - nikt nie skanuje"/>
+    <Komputer_87_07_B rok="1987" brak="1987/7 - nikt nie skanuje"/>
+    <Komputer_87_08_B rok="1987" brak="1987/8 - nikt nie skanuje"/>
+    <Komputer_87_09_B rok="1987" brak="1987/9 - nikt nie skanuje"/>
+    <Komputer_87_10_B rok="1987" brak="1987/10 - nikt nie skanuje"/>
+    <Komputer_87_11_B rok="1987" brak="1987/11 - nikt nie skanuje"/>
+    <Komputer_87_12_B rok="1987" brak="1987/12 - nikt nie skanuje"/>
     <Komputer_88_01 rok="1988">
       <nazwa>Komputer</nazwa>
       <numer>1988/1</numer>
@@ -1721,10 +1721,10 @@
       <przetworzenie>Danos</przetworzenie>
       <podeslal>Danos</podeslal>
     </Komputer_88_01>
-    <Komputer_88_02_B rok="1988" brak="1988/2 - skanuje Danos" />
-    <Komputer_88_03_B rok="1988" brak="1988/3 - nikt nie skanuje" />
-    <Komputer_88_04_B rok="1988" brak="1988/4 - nikt nie skanuje" />
-    <Komputer_88_05_B rok="1988" brak="1988/5 - nikt nie skanuje" />
+    <Komputer_88_02_B rok="1988" brak="1988/2 - skanuje Danos"/>
+    <Komputer_88_03_B rok="1988" brak="1988/3 - nikt nie skanuje"/>
+    <Komputer_88_04_B rok="1988" brak="1988/4 - nikt nie skanuje"/>
+    <Komputer_88_05_B rok="1988" brak="1988/5 - nikt nie skanuje"/>
     <Komputer_88_06 rok="1988">
       <nazwa>Komputer</nazwa>
       <numer>1988/6</numer>
@@ -1749,14 +1749,14 @@
       <przetworzenie>Scalak</przetworzenie>
       <podeslal>Bas</podeslal>
     </Komputer_88_07>
-    <Komputer_88_08_B rok="1988" brak="1988/8 - nikt nie skanuje" />
-    <Komputer_88_09_B rok="1988" brak="1988/9 - nikt nie skanuje" />
-    <Komputer_88_10_B rok="1988" brak="1988/10 - nikt nie skanuje" />
-    <Komputer_88_11_B rok="1988" brak="1988/11 - nikt nie skanuje" />
-    <Komputer_88_12_B rok="1988" brak="1988/12 - nikt nie skanuje" />
-    <Komputer_89_01_B rok="1989" brak="1989/1 - nikt nie skanuje" />
-    <Komputer_89_02_B rok="1989" brak="1989/2 - nikt nie skanuje" />
-    <Komputer_89_03_B rok="1989" brak="1989/3 - nikt nie skanuje" />
+    <Komputer_88_08_B rok="1988" brak="1988/8 - nikt nie skanuje"/>
+    <Komputer_88_09_B rok="1988" brak="1988/9 - nikt nie skanuje"/>
+    <Komputer_88_10_B rok="1988" brak="1988/10 - nikt nie skanuje"/>
+    <Komputer_88_11_B rok="1988" brak="1988/11 - nikt nie skanuje"/>
+    <Komputer_88_12_B rok="1988" brak="1988/12 - nikt nie skanuje"/>
+    <Komputer_89_01_B rok="1989" brak="1989/1 - nikt nie skanuje"/>
+    <Komputer_89_02_B rok="1989" brak="1989/2 - nikt nie skanuje"/>
+    <Komputer_89_03_B rok="1989" brak="1989/3 - nikt nie skanuje"/>
     <Komputer_89_04 rok="1989">
       <nazwa>Komputer</nazwa>
       <numer>1989/4</numer>
@@ -1769,16 +1769,16 @@
       <przetworzenie>Andygroo</przetworzenie>
       <podeslal>Andygroo</podeslal>
     </Komputer_89_04>
-    <Komputer_89_05_B rok="1989" brak="1989/5 - nikt nie skanuje" />
-    <Komputer_89_06_B rok="1989" brak="1989/6 - nikt nie skanuje" />
-    <Komputer_89_07_08_B rok="1989" brak="1989/6,7 - nikt nie skanuje" />
-    <Komputer_89_09_B rok="1989" brak="1989/9 - nikt nie skanuje" />
-    <Komputer_89_10_B rok="1989" brak="1989/10 - nikt nie skanuje" />
-    <Komputer_90_01_02_03_B rok="1990" brak="1990/1,2,3 - nikt nie skanuje" />
-    <Komputer_90_04_B rok="1990" brak="1990/4 - nikt nie skanuje" />
-    <Komputer_90_05_B rok="1990" brak="1990/5 - nikt nie skanuje" />
-    <Komputer_90_06_B rok="1990" brak="1990/6 - nikt nie skanuje" />
-    <Komputer_90_07_08_09_10_11_12_B rok="1990" brak="1990/7,8,9,10,11,12 - nikt nie skanuje" />
+    <Komputer_89_05_B rok="1989" brak="1989/5 - nikt nie skanuje"/>
+    <Komputer_89_06_B rok="1989" brak="1989/6 - nikt nie skanuje"/>
+    <Komputer_89_07_08_B rok="1989" brak="1989/6,7 - nikt nie skanuje"/>
+    <Komputer_89_09_B rok="1989" brak="1989/9 - nikt nie skanuje"/>
+    <Komputer_89_10_B rok="1989" brak="1989/10 - nikt nie skanuje"/>
+    <Komputer_90_01_02_03_B rok="1990" brak="1990/1,2,3 - nikt nie skanuje"/>
+    <Komputer_90_04_B rok="1990" brak="1990/4 - nikt nie skanuje"/>
+    <Komputer_90_05_B rok="1990" brak="1990/5 - nikt nie skanuje"/>
+    <Komputer_90_06_B rok="1990" brak="1990/6 - nikt nie skanuje"/>
+    <Komputer_90_07_08_09_10_11_12_B rok="1990" brak="1990/7,8,9,10,11,12 - nikt nie skanuje"/>
     <Komputer_44_gry rok="nr specjalny">
       <nazwa>Komputer</nazwa>
       <numer>1988/7</numer>
@@ -1793,7 +1793,7 @@
     </Komputer_44_gry>
   </Komputer>
   <Atari_club>
-    <Atari_club_96_01 rok="1996" brak="1996/1 - nikt nie skanuje" />
+    <Atari_club_96_01 rok="1996" brak="1996/1 - nikt nie skanuje"/>
     <Atari_club_96_02 rok="1996">
       <nazwa>Atari club</nazwa>
       <numer>1996/2</numer>
@@ -2262,7 +2262,7 @@
       <przetworzenie>Scalak</przetworzenie>
       <podeslal>Scalak</podeslal>
     </IKS_86_02>
-    <IKS_86_03_B rok="1986" brak="1986/3 - nikt nie skanuje" />
+    <IKS_86_03_B rok="1986" brak="1986/3 - nikt nie skanuje"/>
     <IKS_86_04 rok="1986">
       <nazwa>IKS</nazwa>
       <numer>1986/4</numer>
@@ -2359,9 +2359,9 @@
       <przetworzenie>Scalak</przetworzenie>
       <podeslal>Scalak</podeslal>
     </IKS_87_03>
-    <IKS_87_04_B rok="1987" brak="1987/4 - skanuje Scalak" />
-    <IKS_87_05_B rok="1987" brak="1987/5 - skanuje Scalak" />
-    <IKS_87_06_B rok="1987" brak="1987/6 - skanuje Scalak" />
+    <IKS_87_04_B rok="1987" brak="1987/4 - skanuje Scalak"/>
+    <IKS_87_05_B rok="1987" brak="1987/5 - skanuje Scalak"/>
+    <IKS_87_06_B rok="1987" brak="1987/6 - skanuje Scalak"/>
     <IKS_87_07_08 rok="1987">
       <nazwa>IKS</nazwa>
       <numer>1987/7,8</numer>
@@ -2374,10 +2374,10 @@
       <przetworzenie>Scalak</przetworzenie>
       <podeslal>Scalak</podeslal>
     </IKS_87_07_08>
-    <IKS_87_09_B rok="1987" brak="1987/9 - skanuje Scalak" />
-    <IKS_87_10_B rok="1987" brak="1987/10 - skanuje Scalak" />
-    <IKS_87_11_B rok="1987" brak="1987/11 - skanuje Scalak" />
-    <IKS_87_12_B rok="1987" brak="1987/12 - skanuje Scalak" />
+    <IKS_87_09_B rok="1987" brak="1987/9 - skanuje Scalak"/>
+    <IKS_87_10_B rok="1987" brak="1987/10 - skanuje Scalak"/>
+    <IKS_87_11_B rok="1987" brak="1987/11 - skanuje Scalak"/>
+    <IKS_87_12_B rok="1987" brak="1987/12 - skanuje Scalak"/>
     <IKS_88_01 rok="1988">
       <nazwa>IKS</nazwa>
       <numer>1988/1</numer>
@@ -2510,7 +2510,7 @@
       <przetworzenie>Scalak</przetworzenie>
       <podeslal>Scalak</podeslal>
     </IKS_88_12>
-    <IKS_89_01_B rok="1989" brak="1989/1 - nikt nie skanuje" />
+    <IKS_89_01_B rok="1989" brak="1989/1 - nikt nie skanuje"/>
     <IKS_89_02 rok="1989">
       <nazwa>IKS</nazwa>
       <numer>1989/2</numer>
@@ -2523,7 +2523,7 @@
       <przetworzenie>Scalak</przetworzenie>
       <podeslal>Scalak</podeslal>
     </IKS_89_02>
-    <IKS_89_03_B rok="1989" brak="1989/3 - nikt nie skanuje" />
+    <IKS_89_03_B rok="1989" brak="1989/3 - nikt nie skanuje"/>
     <ZPK_87_01 rok="nr specjalne">
       <nazwa>IKS Zeszyty Programów Komputerowych</nazwa>
       <numer>1987/1</numer>
@@ -2548,7 +2548,7 @@
       <przetworzenie>Scalak</przetworzenie>
       <podeslal>Scalak</podeslal>
     </ZPK_87_02>
-    <ZPK_87_03_B rok="nr specjalne" brak="1987/3 - nikt nie skanuje" />
+    <ZPK_87_03_B rok="nr specjalne" brak="1987/3 - nikt nie skanuje"/>
     <ZPK_87_04 rok="nr specjalne">
       <nazwa>IKS Zeszyty Programów Komputerowych</nazwa>
       <numer>1987/4</numer>
@@ -2573,7 +2573,7 @@
       <przetworzenie>Scalak</przetworzenie>
       <podeslal>Scalak</podeslal>
     </ZPK_88_01>
-    <ZPK_88_02_B rok="nr specjalne" brak="1988/2 - nikt nie skanuje" />
+    <ZPK_88_02_B rok="nr specjalne" brak="1988/2 - nikt nie skanuje"/>
     <ZPK_88_03 rok="nr specjalne">
       <nazwa>IKS Zeszyty Programów Komputerowych</nazwa>
       <numer>1988/3</numer>
