@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { ImagesFrameComponent } from './images-frame/images-frame.component';
 import {HttpClientModule} from '@angular/common/http';
 import { DatesPageComponent } from './dates-page/dates-page.component';
+import { UpdateCategoryComponent } from './update-category/update-category.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ImagesFrameComponent,
-    DatesPageComponent
+    DatesPageComponent,
+    UpdateCategoryComponent
   ],
   imports: [
     FormsModule,

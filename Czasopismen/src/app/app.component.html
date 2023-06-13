@@ -9,7 +9,7 @@
 <body id="bodymain">
   <div *ngIf="isPageFirst; else pageChanged" id="page1">
     <p>Now is: {{currentDate | date:"dd-MM-y hh:mm:ss"}}</p>
-    <label> Wpisz zarobki z zeszlego roku <input id="cash" type="password" [(ngModel)]="inputName" (ngModelChange)="notifyChange($event)"> EUR</label>
+    <label> Wpisz zarobki z zeszlego roku <input id="cash" class="cash" type="password" (input)="changeValue($event)" [value]="currentValue" [(ngModel)]="inputName" (ngModelChange)="notifyChange($event)"> EUR</label>
     <p>Pieniądze: {{inputName | currency:"EUR"}}!</p>
   </div>
   <ng-template #pageChanged>

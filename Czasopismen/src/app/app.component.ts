@@ -12,21 +12,21 @@ export class AppComponent {
   @Input() inputName: number = 0;
   isPageFirst: boolean = true
 
+  currentValue: string = "";
   previousInputValue: string = "";
 
   constructor(){
     this.timeUpdater()
     console.log("s")
   }
+  
 
   public validateInput(e: Event | null)
   {
 
+    console.log("is e null", e)
+
     let text: string = (e?.currentTarget as HTMLInputElement).value
-
-    let mutatedEvent: KeyboardEvent = e as KeyboardEvent
-
-    console.log("wild mutation:", mutatedEvent)
 
     if(e == null){
       console.log("no event")
@@ -47,12 +47,39 @@ export class AppComponent {
 
   }
 
-
-  public notifyChange = (event: Event) => {
+  public changeValue(event: Event){
 
     let eventTarget: EventTarget = event.currentTarget!;
 
-    console.log(event, eventTarget)
+    let targetInput = document.querySelector(".htmlhack .cash")
+
+    var rgx = /^[0-9]*\.?[0-9]*$/;
+    if((targetInput as HTMLInputElement).value.match(rgx)){
+      console.log("good value")
+
+      this.previousInputValue = (targetInput as HTMLInputElement).value;
+
+    }else{
+      console.log("bad value, fix:", this.previousInputValue, this.inputName);
+
+      let elements = document.querySelectorAll(".cash");
+
+      elements.forEach(e => {
+        (e as HTMLInputElement).value = this.previousInputValue
+      });
+
+      //(document.querySelector("#cash") as HTMLInputElement).value = this.previousInputValue
+
+    }
+
+
+  }
+
+  public notifyChange = (event: Event) => {
+
+    if(Number(event) == 666.66){
+      this.isPageFirst = false
+    }
 
   }
 
