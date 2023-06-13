@@ -8,20 +8,18 @@ import { Component } from '@angular/core';
 export class UpdateCategoryComponent {
 
   constructor(){
-    this.sendPhpRequest("a", "b", "c")
+    this.sendPhpRequest("add", "b", "c")
   }
 
   private sendPhpRequest(type: String, field: String, value: String) {
-    fetch("http://localhost/xmlChanges.php", {
+    fetch("http://localhost:3000/xmlChanges.php", {
       method: "POST",
       body: JSON.stringify({
         type: type,
         field: field,
         value: value
     })
-    }).then(e => e.text()).then(e => {
-      alert(e);
-    });
+    }).then(e => e.text()).then(e => console.log(e))
   }
 
 
